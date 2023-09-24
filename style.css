@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    
+}
+
+:root{
+    --background: #f8fafc;
+    --head:#ffffff;
+}
+body{
+    background-color:#f8fafc ;
+    
+}
+.header{
+    height: 4rem;
+    background-color: #ffffff;
+}
+.header .logo{
+    position: absolute;
+    margin-left: 7rem;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+.container{
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.forms{
+display: grid;
+grid-template-columns: auto auto;
+padding: 2rem;
+gap: 5rem;
+}
+.box-1{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1re;
+}
+.box-1,.box-2{
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    align-items: center;
+}
+ .box-1,.box-2 input{
+
+    padding: 5px 15px;
+    font-size: 20px;
+
+}
+input:hover{
+    border: 2px solid #2596be;
+    border-radius: 5px;
+}
+.box-3{
+    display:grid;
+    align-items: center;
+    gap: 1rem;  
+}
+.box-3,.box-4{
+    display: grid;
+    grid-template-columns: 9rem 9rem;
+    align-items: center;
+}
+
+.box-3,.box-4 input{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 14rem;  
+    border-radius: 10px; 
+   
+
+}
+
+.box-5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+ .box-6{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
+.box-6 input{
+    width: 25rem;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.box-6 textarea{
+    height: 3.5rem;
+    border-radius: 10px;
+}
+
+
+.box-7{
+    display: grid;
+}
+.box-7 input{
+    margin-bottom: 4rem;
+    width: 5rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+ 
+}
+
+
+
+.box-8{
+    display: grid;
+}
+
+.box-8 input{
+    margin-bottom: 4rem;
+    width: 8rem;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.box-9{
+    display: grid;
+}
+
+.box-9 input{
+    margin-bottom: 4rem;
+    width: 8rem;
+    padding: 5px 10px;
+    font-weight: lighter;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.line{
+    max-width: 100%;
+    
+    border-bottom: 1px solid #a6a6a6;
+}
+
+.box-area{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.box-10 .box-11{
+    display: grid;
+}
+
+ .box-11 textarea{
+    padding: 10px 15px;
+    width: 30rem;
+    border-radius:10px;
+    margin-bottom: 2rem;
+}
+
+.box-12{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   margin-bottom:40px;
+    
+}
+
+.box-12 .box-13 i{
+   font-size: 40px;
+   color: #b3b3b3;
+  
+   
+}
+
+.box-12 .box-13 p{
+    font-size: 15px;
+}
+
+.box-14 .box-15{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+}
+
+.box-14 .box-15 p{
+    font-size: 15px;
+    
+
+}
+.box-14 .box-16{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+.box-14 .box-16 p{ 
+
+    font-size: 15px;
+}
+.box-6,.box-7,.box-8,.box-9 label{
+color: #707070;
+font-size: 20px;
+}
+.box-3 label{
+    color: #707070;
+    font-size: 20px;
+}
+
+.left-side{
+    width: 80%;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
+}
+.right-side{
+    width: 30%;
+    background-color: #ffffff;
+}
+.btn-box-1 .butt li{
+    display: flex;
+}
+.btn-box-1 {
+   
+  
+    margin: 30px -5px 0 -5px;
+  
+     
+  }
+  
+    .btn-box-1 a {
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .btn-box-1 .btn-22 {
+    display: inline-block;
+    padding: 10px 0px;
+    background-color: #1409bb;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #1409bb;
+    border-radius: 0;
+  }
+  
+    .btn-box-1 .btn-11 {
+    display: inline-block;
+    padding: 10px 0px;
+    background-color: #0a2050;
+    color: #ffffff;
+   
+    transition: all 0.3s;
+    border: 1px solid #0a2050;
+    border-radius: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-side h3{
+    font-weight: lighter;
+}
+.left-side p{
+    font-size: 15px;
+    font-weight:bold ;
+}
+.left-side p .links a{
+padding: 15px;
+color: #111111a1;
+font-weight:lighter;
+}
+.box-row {
+    margin-left: 50px;
+}
+.bill-form{
+  
+}
+.card-text a{
+    text-decoration: none;
+}
+.card-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    display: block;
+    align-items:center;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #616161;
+ 
+}
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks i{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.navlinks .light{
+      color: #312e81;
+      font-size: 40px;
+      position: relative;
+      top: 5px;
+      
+}
+
+input[type="checkbox"]
+{
+    visibility: hidden;
+    display: none;
+}
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #707070;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+input[type="checkbox"]:checked ~ .check{
+    background: #fff;
+    box-shadow: 0 0 0 1200px #092c3e;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+transition: 0.5s;
+
+}
+input[type="checkbox"]:checked ~ .check:before{
+    transform: translateX(-50px);
+}
+/* right */
+.right-side{
+
+    width: 20rem;
+    height: 90rem;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.col-1{
+    display: grid;
+    align-items: center;
+    font-size: 20px;
+}
+.butt-3{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #a19b9b;
+    text-align: center;
+    color:#000000;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.butt-3:hover{
+   background-color: #f0f8ff;
+}
+
+.butt-4{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff4500;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:#121294;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px; 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn i{
+    padding: 5px;
+}
+
+.col-2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 2rem;
+}
+
+.butt-5{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:#121294;
+    text-align: center;
+    color:#ffffff; 
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.butt-6{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #a19b9b;
+    text-align: center;
+    color:#000000;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.butt-6:hover{
+    background-color: #f0f8ff;
+}
+
+.list{
+   
+   
+}
+label{
+    font-size: 19px;
+}
+
+option{
+    font-size: 14px;
+
+}
+
+.set{
+    font-size: 16px;
+}
+
+.butt-7{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid #a19b9b;
+    color: #000000;
+    text-decoration: none;
+}
+
+.butt-7:hover{
+    background-color: #f0f8ff;
+}
+
+.card-size{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+   
+}
+
+.card-item{
+    
+    height: 85rem;
+    border-radius: 10px;
+    background-color:#f5f5f5;
+    padding: 3rem 1rem;
+ 
+}
+.card-item{
+   
+  background:#ffffff;
+   
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.card-item{
+    width: 80rem;
+    height: 85rem;
+    border-radius: 10px;
+    background-color:#ffffff;
+    padding: 2rem 3rem;
+ 
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letter p{
+    width: 45rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    padding-top: 10px;
+    
+}
+.letter .letter-1{
+   width: 45rem;
+}
+
+.letter .letter-1 h6{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.letter .letter-1 p{
+    width:50rem;
+}
+
+
+@media only screen and (min-width:360px)  and (max-width:480px)
+{
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .card{
+        width: 20rem;
+        height: 30%;
+        padding: 1rem;
+    }
+
+    .left-side{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 3rem;
+        padding: 0.5rem;
+    }
+
+    .box-1 .box-2{
+        display: grid;
+        grid-template-columns: 8rem 8rem;
+       align-items: center;
+      
+    }
+
+    .box-1 .box-2 input{
+        width: 10rem;
+        padding: 5px 10px;
+    }
+
+    .box-1 .box-2 label{
+        font-size: 15px;
+    }
+
+    .box-3 .box-4{
+        display: grid;
+        grid-template-columns: 8rem 8rem;
+       align-items: center;  
+    }
+    .boxd-3 .box-4 input{
+        width: 10rem;
+        padding: 5px 10px;
+    }
+
+    .box-3 .box-4 label{
+        font-size: 15px;
+    }
+
+    .box-5 {
+        display:flex;
+       flex-wrap: wrap;
+        align-items: center;
+        text-align: left;
+        margin-top: 10%;
+        padding: 10px;
+       
+    }
+
+
+    .box-6 input{
+        width: 18rem;
+        margin-bottom: 10px;
+
+    }
+       
+    .box-6 label{
+        font-size: 15px;
+    }
+
+    .box-7 input{
+        display: inline-block;
+        width: 18rem;
+        margin-bottom: 10px;
+    }
+.box-7 label{
+    font-size: 15px;
+}
+
+.box-8 input{
+    display: inline-block;
+    width: 18rem;
+    margin-bottom: 10px;
+}
+
+.box-8 label{
+    font-size: 15px;
+}
+  
+  
+.box-9 input{
+    display: inline-block;
+    width: 18rem; 
+    margin-bottom: 1rem;
+}
+
+.box-9 label{
+    font-size: 15px;
+}
+
+.box-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+  .box-11 textarea{
+    width: 18rem;
+  }
+
+  .boxd-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+.box-14 .box-15{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+      
+
+.box-14 .box-16{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.right-side{
+    width: 20rem;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+   
+}
+
+.card-item{
+    width: 20rem;
+    height: 30%;
+    padding: 1rem;
+}
+
+.letter{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.letter p{
+    width:18rem;
+    font-size: 14px;
+}
+
+.letter .letter-1{
+    width: 18rem;
+}
+
+.letter .letter-1 h6{
+    font-size: 16px;
+}
+
+.letter .letter-1 p{
+    width: 18rem;
+    font-size: 14px;
+}
+
+}
